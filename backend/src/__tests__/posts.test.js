@@ -8,7 +8,7 @@ import {
   getPostById,
   updatePost,
   deletePost,
-} from '../db/routes/services/posts.js'
+} from '../services/posts.js'
 import { Post } from '../db/models/post.js'
 
 describe('creating posts', () => {
