@@ -1,6 +1,7 @@
 import express from 'express'
 import cors from 'cors'
 import bodyParser from 'body-parser'
+import { userRoutes } from './routes/users.js'
 
 import { postsRoutes } from './routes/posts.js'
 
@@ -9,6 +10,7 @@ app.use(cors())
 app.use(bodyParser.json())
 
 postsRoutes(app)
+userRoutes(app)
 
 app.get('/', (req, res) => {
   res.send('Hello from Express Live!')
