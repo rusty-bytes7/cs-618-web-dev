@@ -27,4 +27,4 @@ jobs:
       - name: Run linter on backend
         run: npm run lint
       - name: Run backend tests
-        run: npm test
+        run: npm test`  
