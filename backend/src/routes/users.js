@@ -18,7 +18,7 @@ export function userRoutes(app) {
       return res.status(200).json({ token })
     } catch (err) {
       return res.status(400).send({
-        error: 'login failed, did you enter the correct username/password?',
+        error: 'Login failed, did you enter the correct username/password?',
       })
     }
   })
