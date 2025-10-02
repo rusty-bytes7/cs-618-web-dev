@@ -13,12 +13,14 @@ A full-stack web application for sharing and discovering recipes built with Reac
 ## Tech Stack
 
 **Frontend:**
+
 - React + Vite
 - React Router for navigation
 - TanStack Query for data fetching
 - JWT authentication
 
 **Backend:**
+
 - Node.js + Express
 - MongoDB with Mongoose
 - JWT for authentication
@@ -27,6 +29,7 @@ A full-stack web application for sharing and discovering recipes built with Reac
 ## Getting Started
 
 ### Prerequisites
+
 - Node.js (v14 or higher)
 - MongoDB (local installation or Docker)
 
@@ -34,12 +37,14 @@ A full-stack web application for sharing and discovering recipes built with Reac
 
 1. Clone the repository
 2. Install dependencies:
+
    ```bash
    npm install
    cd backend && npm install
    ```
 
 3. Set up environment variables:
+
    - Create `.env` in root directory with:
      ```
      VITE_BACKEND_URL=http://localhost:3001/api/v1
@@ -52,10 +57,11 @@ A full-stack web application for sharing and discovering recipes built with Reac
      ```
 
 4. Start the development servers:
+
    ```bash
    # Terminal 1 - Backend
    cd backend && npm run dev
-   
+
    # Terminal 2 - Frontend
    npm run dev
    ```
@@ -69,6 +75,7 @@ docker-compose up
 ```
 
 This will start:
+
 - MongoDB database on port 27017
 - Backend API on port 3001
 - Frontend application on port 3000
